@@ -1,0 +1,21 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "My React.js stater kit",
+  "main": "index.html",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.8",
+    "browserify": "^13.0.0",
+    "react-dom": "^0.14.8",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t [ babelify --presets [ react ] ] src/app.jsx -o dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
